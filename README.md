@@ -1,16 +1,16 @@
-# M712B · Communication
+# M712B Intercom Matrix Amplifier · Communication
 
 Ward-Beck Systems M712B, 1982|15. Wiki page: [M712B on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M712B.html)
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 6 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 15 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 1 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 17 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 0 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 0 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 1 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 9 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 24 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 2 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 18 |
+| [PHOTOS/](PHOTOS/) | photographs of the module | 1 |
+| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 4 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 24 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -55,25 +55,16 @@ Additionally, by inserting the appropriate resistors PART-MUTE/ FULLY On and FUL
 _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- drawings), AutoCAD files, each with its `(EXTRACTED).svg` vectors; `<module> - front panel.svg` is the front panel as vectors._
 
 <table>
-<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1f09bZl-SxykSHpLojyacDWl3xE39yvKp/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1f09bZl-SxykSHpLojyacDWl3xE39yvKp" width="240" alt="1994 - M712B - DOC - 940443-04-002 - UJA CAUTION DISCCHHAE POMER UEL RDPLAGNC.jpg"></a><br><sub>1994|27 · DOC - 940443-04-002 - UJA CAUTION DISCCHHAE POMER UEL RDPLAGNC</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1h7QoJ9t8kbPlgKXbLtsFQMsrG5v5nEo9/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1h7QoJ9t8kbPlgKXbLtsFQMsrG5v5nEo9" width="240" alt="1994 - M712B - DOC - 940444-03-004 - CARD TUBS NOTE REVOVE ALL BURRS AND SHARP.jpg"></a><br><sub>1994|27 · DOC - 940444-03-004 - CARD TUBS NOTE REVOVE ALL BURRS AND SHARP</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1LGVN5Vyd4RQs1LU7peadIQ2pnBHpRf3x/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1LGVN5Vyd4RQs1LU7peadIQ2pnBHpRf3x" width="240" alt="1994 - M712B - DOC - 940444-04-004 - HYBRID UTL UTL HYBRID HYBRID CUTPUTS CORD REAR.jpg"></a><br><sub>1994|27 · DOC - 940444-04-004 - HYBRID UTL UTL HYBRID HYBRID CUTPUTS CORD REAR</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1cdNIPuFQbn_EDEDAWgDl1LxMNWR9ag7L/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1cdNIPuFQbn_EDEDAWgDl1LxMNWR9ag7L" width="240" alt="1994 - M712B - DOC - 94063-04-003 - MODUNES V-ADJ V-ADJ CAUTION DISCOVNECI PONKK REFCRI IRSERMNG.jpg"></a><br><sub>1994|27 · DOC - 94063-04-003 - MODUNES V-ADJ V-ADJ CAUTION DISCOVNECI PONKK REFCRI IRSERMNG</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1PXuPYwVuCfj6cI6EF089y0azi5lEoG3x/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1PXuPYwVuCfj6cI6EF089y0azi5lEoG3x" width="240" alt="1996 - M712B - DOC - 960296-04-001 - RACTRG JOKER VOULLS V-ADJ V-ADJ CAUTION DISCCNNECT PORER.jpg"></a><br><sub>1996|29 · DOC - 960296-04-001 - RACTRG JOKER VOULLS V-ADJ V-ADJ CAUTION DISCCNNECT PORER</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1f09bZl-SxykSHpLojyacDWl3xE39yvKp/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1f09bZl-SxykSHpLojyacDWl3xE39yvKp" width="240" alt="1994 - M712B - DOC - 940443-04-002 - UJA CAUTION DISCCHHAE POMER UEL RDPLAGNC.jpg"></a><br><sub>1994|27 · DOC - 940443-04-002 - UJA CAUTION DISCCHHAE POMER UEL RDPLAGNC · <a href="MECHANICAL/1994%20-%20M712B%20-%20DOC%20-%20940443-04-002%20-%20UJA%20CAUTION%20DISCCHHAE%20POMER%20UEL%20RDPLAGNC%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1h7QoJ9t8kbPlgKXbLtsFQMsrG5v5nEo9/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1h7QoJ9t8kbPlgKXbLtsFQMsrG5v5nEo9" width="240" alt="1994 - M712B - DOC - 940444-03-004 - CARD TUBS NOTE REVOVE ALL BURRS AND SHARP.jpg"></a><br><sub>1994|27 · DOC - 940444-03-004 - CARD TUBS NOTE REVOVE ALL BURRS AND SHARP · <a href="MECHANICAL/1994%20-%20M712B%20-%20DOC%20-%20940444-03-004%20-%20CARD%20TUBS%20NOTE%20REVOVE%20ALL%20BURRS%20AND%20SHARP%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1LGVN5Vyd4RQs1LU7peadIQ2pnBHpRf3x/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1LGVN5Vyd4RQs1LU7peadIQ2pnBHpRf3x" width="240" alt="1994 - M712B - DOC - 940444-04-004 - HYBRID UTL UTL HYBRID HYBRID CUTPUTS CORD REAR.jpg"></a><br><sub>1994|27 · DOC - 940444-04-004 - HYBRID UTL UTL HYBRID HYBRID CUTPUTS CORD REAR · <a href="MECHANICAL/1994%20-%20M712B%20-%20DOC%20-%20940444-04-004%20-%20HYBRID%20UTL%20UTL%20HYBRID%20HYBRID%20CUTPUTS%20CORD%20REAR%20(EXTRACTED).svg">vectors</a></sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1cdNIPuFQbn_EDEDAWgDl1LxMNWR9ag7L/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1cdNIPuFQbn_EDEDAWgDl1LxMNWR9ag7L" width="240" alt="1994 - M712B - DOC - 94063-04-003 - MODUNES V-ADJ V-ADJ CAUTION DISCOVNECI PONKK REFCRI IRSERMNG.jpg"></a><br><sub>1994|27 · DOC - 94063-04-003 - MODUNES V-ADJ V-ADJ CAUTION DISCOVNECI PONKK REFCRI IRSERMNG · <a href="MECHANICAL/1994%20-%20M712B%20-%20DOC%20-%2094063-04-003%20-%20MODUNES%20V-ADJ%20V-ADJ%20CAUTION%20DISCOVNECI%20PONKK%20REFCRI%20IRSERMNG%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1PXuPYwVuCfj6cI6EF089y0azi5lEoG3x/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1PXuPYwVuCfj6cI6EF089y0azi5lEoG3x" width="240" alt="1996 - M712B - DOC - 960296-04-001 - RACTRG JOKER VOULLS V-ADJ V-ADJ CAUTION DISCCNNECT PORER.jpg"></a><br><sub>1996|29 · DOC - 960296-04-001 - RACTRG JOKER VOULLS V-ADJ V-ADJ CAUTION DISCCNNECT PORER · <a href="MECHANICAL/1996%20-%20M712B%20-%20DOC%20-%20960296-04-001%20-%20RACTRG%20JOKER%20VOULLS%20V-ADJ%20V-ADJ%20CAUTION%20DISCCNNECT%20PORER%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
-
-## 3-D model
-
-[`MECHANICAL/M712B.stl`](MECHANICAL/M712B.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M712B)
-
-- **Size:** 18 × 112 mm panel, 280 mm deep, 3.2 mm plate (TECHNICAL DATA: 0 7" wide 4.4" high 11" deep (18 mm 112 Mm 280 mm))
-- **From the drawing:** 0 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M712B - front panel.svg`)
-- no drawing of the front panel: the panel is blank
-- Made by `tools/module_models.py` (→ `MECHANICAL/M712B.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
 
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._
 
 <table>
-<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1ci2d5sfRZ6S1leva3C8pLHIAW4ixnlVt/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1ci2d5sfRZ6S1leva3C8pLHIAW4ixnlVt" width="240" alt="1994 - M712B - DOC - 940249-01-001 - CENTENNIAL COLLEGE RADIO INTERCOM FUNCTIONAL.jpg"></a><br><sub>1994|27 · DOC - 940249-01-001 - CENTENNIAL COLLEGE RADIO INTERCOM FUNCTIONAL</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1mgdA89Fk11XlB0KuC3BDKfFTTM27gAaS/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1mgdA89Fk11XlB0KuC3BDKfFTTM27gAaS" width="240" alt="1996 - M712B - DOC - 96017-01-001 - ISSUEI REMSION.jpg"></a><br><sub>1996|29 · DOC - 96017-01-001 - ISSUEI REMSION</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1ci2d5sfRZ6S1leva3C8pLHIAW4ixnlVt/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1ci2d5sfRZ6S1leva3C8pLHIAW4ixnlVt" width="240" alt="1994 - M712B - DOC - 940249-01-001 - CENTENNIAL COLLEGE RADIO INTERCOM FUNCTIONAL.jpg"></a><br><sub>1994|27 · DOC - 940249-01-001 - CENTENNIAL COLLEGE RADIO INTERCOM FUNCTIONAL · <a href="SCHEMATICS/1994%20-%20M712B%20-%20DOC%20-%20940249-01-001%20-%20CENTENNIAL%20COLLEGE%20RADIO%20INTERCOM%20FUNCTIONAL%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1mgdA89Fk11XlB0KuC3BDKfFTTM27gAaS/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1mgdA89Fk11XlB0KuC3BDKfFTTM27gAaS" width="240" alt="1996 - M712B - DOC - 96017-01-001 - ISSUEI REMSION.jpg"></a><br><sub>1996|29 · DOC - 96017-01-001 - ISSUEI REMSION · <a href="SCHEMATICS/1996%20-%20M712B%20-%20DOC%20-%2096017-01-001%20-%20ISSUEI%20REMSION%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
 ## Manuals and documents
@@ -89,60 +80,18 @@ _Manuals and manual pages, price lists, RTO-144 connection sheets, brochures, ad
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/16KDXNhmVHwZAA9b2iSEZlTD6yfay3kh-/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=16KDXNhmVHwZAA9b2iSEZlTD6yfay3kh-" width="240" alt="19xx - M712B - DOC - 2021-3-16-23-19-37.jpg"></a><br><sub>19xx - M712B - DOC - 2021-3-16-23-19-37</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1gtTOoy8udi8ug_F4luQBvMkWs0sCJ9SV/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1gtTOoy8udi8ug_F4luQBvMkWs0sCJ9SV" width="240" alt="19xx - M712B - DOC - 2021-3-16-23-22-3.jpg"></a><br><sub>19xx - M712B - DOC - 2021-3-16-23-22-3</sub></td></tr>
 </table>
 
-## RTO-144 pinout
-
-Read from 1 pinout picture (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
-
-| Pin | Signal | Kind | Port | Confidence |
-|---|---|---|---|---|
-| 1 | +25 V | power |  | medium |
-| 2 | BUS OUTPUT | out | OUTPUT | medium |
-| 3 | CROSSPOINT 6 CONTROL | control_in | CROSSPOINT 6 CONTROL | medium |
-| 4 | CROSSPOINT 5 CONTROL | control_in | CROSSPOINT 5 CONTROL | medium |
-| 5 | CROSSPOINT 4 CONTROL | control_in | CROSSPOINT 4 CONTROL | medium |
-| 6 | MATRIX INPUT 1 | in | MATRIX INPUT 1 | medium |
-| 7 | MATRIX INPUT 2 | in | MATRIX INPUT 2 | medium |
-| 8 | MATRIX INPUT 3 | in | MATRIX INPUT 3 | medium |
-| 9 | MATRIX INPUT 4 | in | MATRIX INPUT 4 | medium |
-| 10 | MATRIX INPUT 5 | in | MATRIX INPUT 5 | medium |
-| 11 | MATRIX INPUT 6 | in | MATRIX INPUT 6 | medium |
-| 12 | MATRIX INPUT 7 | in | MATRIX INPUT 7 | medium |
-| 13 | MATRIX INPUT 8 | in | MATRIX INPUT 8 | medium |
-| 14 | MATRIX INPUT 9 | in | MATRIX INPUT 9 | medium |
-| 15 | MATRIX INPUT 10 | in | MATRIX INPUT 10 | medium |
-| 16 | MATRIX INPUT 11 | in | MATRIX INPUT 11 | medium |
-| 17 | MATRIX INPUT 12 | in | MATRIX INPUT 12 | medium |
-| 18 | CROSSPOINT 12 CONTROL | control_in | CROSSPOINT 12 CONTROL | medium |
-| 19 | CROSSPOINT 11 CONTROL | control_in | CROSSPOINT 11 CONTROL | medium |
-| 20 | CROSSPOINT 10 CONTROL | control_in | CROSSPOINT 10 CONTROL | medium |
-| 21 | BUS CASCADE INPUT | bus | BUS CASCADE | medium |
-| 22 | GROUND | ground |  | medium |
-| B | BUS OUTPUT | out | OUTPUT | medium |
-| C | CROSSPOINT 3 CONTROL | control_in | CROSSPOINT 3 CONTROL | medium |
-| D | CROSSPOINT 2 CONTROL | control_in | CROSSPOINT 2 CONTROL | medium |
-| E | CROSSPOINT 1 CONTROL | control_in | CROSSPOINT 1 CONTROL | medium |
-| F | MATRIX INPUT 1 | in | MATRIX INPUT 1 | medium |
-| H | MATRIX INPUT 2 | in | MATRIX INPUT 2 | medium |
-| J | MATRIX INPUT 3 | in | MATRIX INPUT 3 | medium |
-| K | MATRIX INPUT 4 | in | MATRIX INPUT 4 | medium |
-| L | MATRIX INPUT 5 | in | MATRIX INPUT 5 | medium |
-| M | MATRIX INPUT 6 | in | MATRIX INPUT 6 | medium |
-| N | MATRIX INPUT 7 | in | MATRIX INPUT 7 | medium |
-| P | MATRIX INPUT 8 | in | MATRIX INPUT 8 | medium |
-| R | MATRIX INPUT 9 | in | MATRIX INPUT 9 | medium |
-| S | MATRIX INPUT 10 | in | MATRIX INPUT 10 | medium |
-| T | MATRIX INPUT 11 | in | MATRIX INPUT 11 | medium |
-| U | MATRIX INPUT 12 | in | MATRIX INPUT 12 | medium |
-| V | CROSSPOINT 9 CONTROL | control_in | CROSSPOINT 9 CONTROL | medium |
-| W | CROSSPOINT 8 CONTROL | control_in | CROSSPOINT 8 CONTROL | medium |
-| X | CROSSPOINT 7 CONTROL | control_in | CROSSPOINT 7 CONTROL | medium |
-| Y | BUS CASCADE INPUT | bus | BUS CASCADE | medium |
-
 ## KiCad
 
 _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the module symbol (`.kicad_sym`) and its PCB projects. Traced schematics are the line work only: redraw with symbols over them._
 
+- [1994 - M712B - DOC - 940249-01-001 - CENTENNIAL COLLEGE RADIO INTERCOM FUNCTIONAL.kicad_sch](KICAD/1994%20-%20M712B%20-%20DOC%20-%20940249-01-001%20-%20CENTENNIAL%20COLLEGE%20RADIO%20INTERCOM%20FUNCTIONAL.kicad_sch)
+- [1996 - M712B - DOC - 96017-01-001 - ISSUEI REMSION.kicad_sch](KICAD/1996%20-%20M712B%20-%20DOC%20-%2096017-01-001%20-%20ISSUEI%20REMSION.kicad_sch)
 - [M712B.kicad_sym](KICAD/M712B.kicad_sym)
+- [index.html](KICAD/index.html)
+
+## Software
+
+- [index.html](SOFTWARE/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
