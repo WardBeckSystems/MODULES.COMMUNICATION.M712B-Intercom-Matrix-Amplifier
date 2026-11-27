@@ -82,7 +82,7 @@ _Manuals and manual pages, price lists, RTO-144 connection sheets, brochures, ad
 
 ## RTO-144 pinout
 
-Read from 1 pinout picture (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json).
+Read from 1 pinout picture (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
 
 | Pin | Signal | Kind | Port | Confidence |
 |---|---|---|---|---|
