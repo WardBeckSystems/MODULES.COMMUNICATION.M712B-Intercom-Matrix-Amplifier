@@ -1,0 +1,885 @@
+{
+ "code": "M712B",
+ "connector": "RTO-144",
+ "type": null,
+ "series": null,
+ "connectors": [
+  {
+   "name": "P1",
+   "kind": "edge",
+   "contacts": 44,
+   "rows": "1-22 opposite A-Z",
+   "view": null,
+   "part": null
+  }
+ ],
+ "verified": null,
+ "built_from": {
+  "pictures": [
+   "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+  ],
+  "sheet": null,
+  "sheet_agrees": null
+ },
+ "pins": [
+  {
+   "connector": "P1",
+   "pin": "1",
+   "ref": "1",
+   "also": null,
+   "same_row": null,
+   "signal": "+25 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "2",
+   "ref": "2",
+   "also": "B",
+   "same_row": null,
+   "signal": "BUS OUTPUT",
+   "kind": "out",
+   "port": "OUTPUT",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "3",
+   "ref": "3",
+   "also": null,
+   "same_row": null,
+   "signal": "CROSSPOINT 6 CONTROL",
+   "kind": "control_in",
+   "port": "CROSSPOINT 6 CONTROL",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "4",
+   "ref": "4",
+   "also": null,
+   "same_row": null,
+   "signal": "CROSSPOINT 5 CONTROL",
+   "kind": "control_in",
+   "port": "CROSSPOINT 5 CONTROL",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "5",
+   "ref": "5",
+   "also": null,
+   "same_row": null,
+   "signal": "CROSSPOINT 4 CONTROL",
+   "kind": "control_in",
+   "port": "CROSSPOINT 4 CONTROL",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "6",
+   "ref": "6",
+   "also": "F",
+   "same_row": null,
+   "signal": "MATRIX INPUT 1",
+   "kind": "in",
+   "port": "MATRIX INPUT 1",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "7",
+   "ref": "7",
+   "also": "H",
+   "same_row": null,
+   "signal": "MATRIX INPUT 2",
+   "kind": "in",
+   "port": "MATRIX INPUT 2",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "8",
+   "ref": "8",
+   "also": "J",
+   "same_row": null,
+   "signal": "MATRIX INPUT 3",
+   "kind": "in",
+   "port": "MATRIX INPUT 3",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "9",
+   "ref": "9",
+   "also": "K",
+   "same_row": null,
+   "signal": "MATRIX INPUT 4",
+   "kind": "in",
+   "port": "MATRIX INPUT 4",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "10",
+   "ref": "10",
+   "also": "L",
+   "same_row": null,
+   "signal": "MATRIX INPUT 5",
+   "kind": "in",
+   "port": "MATRIX INPUT 5",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "11",
+   "ref": "11",
+   "also": "M",
+   "same_row": null,
+   "signal": "MATRIX INPUT 6",
+   "kind": "in",
+   "port": "MATRIX INPUT 6",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "12",
+   "ref": "12",
+   "also": "N",
+   "same_row": null,
+   "signal": "MATRIX INPUT 7",
+   "kind": "in",
+   "port": "MATRIX INPUT 7",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "13",
+   "ref": "13",
+   "also": "P",
+   "same_row": null,
+   "signal": "MATRIX INPUT 8",
+   "kind": "in",
+   "port": "MATRIX INPUT 8",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "14",
+   "ref": "14",
+   "also": "R",
+   "same_row": null,
+   "signal": "MATRIX INPUT 9",
+   "kind": "in",
+   "port": "MATRIX INPUT 9",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "15",
+   "ref": "15",
+   "also": "S",
+   "same_row": null,
+   "signal": "MATRIX INPUT 10",
+   "kind": "in",
+   "port": "MATRIX INPUT 10",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "16",
+   "ref": "16",
+   "also": "T",
+   "same_row": null,
+   "signal": "MATRIX INPUT 11",
+   "kind": "in",
+   "port": "MATRIX INPUT 11",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "17",
+   "ref": "17",
+   "also": "U",
+   "same_row": null,
+   "signal": "MATRIX INPUT 12",
+   "kind": "in",
+   "port": "MATRIX INPUT 12",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "18",
+   "ref": "18",
+   "also": null,
+   "same_row": null,
+   "signal": "CROSSPOINT 12 CONTROL",
+   "kind": "control_in",
+   "port": "CROSSPOINT 12 CONTROL",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "19",
+   "ref": "19",
+   "also": null,
+   "same_row": null,
+   "signal": "CROSSPOINT 11 CONTROL",
+   "kind": "control_in",
+   "port": "CROSSPOINT 11 CONTROL",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "20",
+   "ref": "20",
+   "also": null,
+   "same_row": null,
+   "signal": "CROSSPOINT 10 CONTROL",
+   "kind": "control_in",
+   "port": "CROSSPOINT 10 CONTROL",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "21",
+   "ref": "21",
+   "also": "Y",
+   "same_row": null,
+   "signal": "BUS CASCADE INPUT",
+   "kind": "bus",
+   "port": "BUS CASCADE",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "22",
+   "ref": "22",
+   "also": null,
+   "same_row": null,
+   "signal": "GROUND",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "B",
+   "ref": "B",
+   "also": "2",
+   "same_row": true,
+   "signal": "BUS OUTPUT",
+   "kind": "out",
+   "port": "OUTPUT",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "C",
+   "ref": "C",
+   "also": null,
+   "same_row": null,
+   "signal": "CROSSPOINT 3 CONTROL",
+   "kind": "control_in",
+   "port": "CROSSPOINT 3 CONTROL",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "D",
+   "ref": "D",
+   "also": null,
+   "same_row": null,
+   "signal": "CROSSPOINT 2 CONTROL",
+   "kind": "control_in",
+   "port": "CROSSPOINT 2 CONTROL",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "E",
+   "ref": "E",
+   "also": null,
+   "same_row": null,
+   "signal": "CROSSPOINT 1 CONTROL",
+   "kind": "control_in",
+   "port": "CROSSPOINT 1 CONTROL",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "F",
+   "ref": "F",
+   "also": "6",
+   "same_row": true,
+   "signal": "MATRIX INPUT 1",
+   "kind": "in",
+   "port": "MATRIX INPUT 1",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "H",
+   "ref": "H",
+   "also": "7",
+   "same_row": true,
+   "signal": "MATRIX INPUT 2",
+   "kind": "in",
+   "port": "MATRIX INPUT 2",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "J",
+   "ref": "J",
+   "also": "8",
+   "same_row": true,
+   "signal": "MATRIX INPUT 3",
+   "kind": "in",
+   "port": "MATRIX INPUT 3",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "K",
+   "ref": "K",
+   "also": "9",
+   "same_row": true,
+   "signal": "MATRIX INPUT 4",
+   "kind": "in",
+   "port": "MATRIX INPUT 4",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "L",
+   "ref": "L",
+   "also": "10",
+   "same_row": true,
+   "signal": "MATRIX INPUT 5",
+   "kind": "in",
+   "port": "MATRIX INPUT 5",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "M",
+   "ref": "M",
+   "also": "11",
+   "same_row": true,
+   "signal": "MATRIX INPUT 6",
+   "kind": "in",
+   "port": "MATRIX INPUT 6",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "N",
+   "ref": "N",
+   "also": "12",
+   "same_row": true,
+   "signal": "MATRIX INPUT 7",
+   "kind": "in",
+   "port": "MATRIX INPUT 7",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "P",
+   "ref": "P",
+   "also": "13",
+   "same_row": true,
+   "signal": "MATRIX INPUT 8",
+   "kind": "in",
+   "port": "MATRIX INPUT 8",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "R",
+   "ref": "R",
+   "also": "14",
+   "same_row": true,
+   "signal": "MATRIX INPUT 9",
+   "kind": "in",
+   "port": "MATRIX INPUT 9",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "S",
+   "ref": "S",
+   "also": "15",
+   "same_row": true,
+   "signal": "MATRIX INPUT 10",
+   "kind": "in",
+   "port": "MATRIX INPUT 10",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "T",
+   "ref": "T",
+   "also": "16",
+   "same_row": true,
+   "signal": "MATRIX INPUT 11",
+   "kind": "in",
+   "port": "MATRIX INPUT 11",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "U",
+   "ref": "U",
+   "also": "17",
+   "same_row": true,
+   "signal": "MATRIX INPUT 12",
+   "kind": "in",
+   "port": "MATRIX INPUT 12",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "V",
+   "ref": "V",
+   "also": null,
+   "same_row": null,
+   "signal": "CROSSPOINT 9 CONTROL",
+   "kind": "control_in",
+   "port": "CROSSPOINT 9 CONTROL",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "W",
+   "ref": "W",
+   "also": null,
+   "same_row": null,
+   "signal": "CROSSPOINT 8 CONTROL",
+   "kind": "control_in",
+   "port": "CROSSPOINT 8 CONTROL",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "X",
+   "ref": "X",
+   "also": null,
+   "same_row": null,
+   "signal": "CROSSPOINT 7 CONTROL",
+   "kind": "control_in",
+   "port": "CROSSPOINT 7 CONTROL",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "Y",
+   "ref": "Y",
+   "also": "21",
+   "same_row": true,
+   "signal": "BUS CASCADE INPUT",
+   "kind": "bus",
+   "port": "BUS CASCADE",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M712/PINOUTS/1979 - 712-02-102 - M712B INTERCOM MATRIX AMPLIFIER CONNECTION OF MULTIPLE MODULES - DRN MRW - ENG MRW - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  }
+ ],
+ "ports": [
+  {
+   "name": "OUTPUT",
+   "dir": "out",
+   "pins": {
+    "a": "P1-2"
+   }
+  },
+  {
+   "name": "MATRIX INPUT 1",
+   "dir": "in",
+   "pins": {
+    "a": "P1-6"
+   }
+  },
+  {
+   "name": "MATRIX INPUT 2",
+   "dir": "in",
+   "pins": {
+    "a": "P1-7"
+   }
+  },
+  {
+   "name": "MATRIX INPUT 3",
+   "dir": "in",
+   "pins": {
+    "a": "P1-8"
+   }
+  },
+  {
+   "name": "MATRIX INPUT 4",
+   "dir": "in",
+   "pins": {
+    "a": "P1-9"
+   }
+  },
+  {
+   "name": "MATRIX INPUT 5",
+   "dir": "in",
+   "pins": {
+    "a": "P1-10"
+   }
+  },
+  {
+   "name": "MATRIX INPUT 6",
+   "dir": "in",
+   "pins": {
+    "a": "P1-11"
+   }
+  },
+  {
+   "name": "MATRIX INPUT 7",
+   "dir": "in",
+   "pins": {
+    "a": "P1-12"
+   }
+  },
+  {
+   "name": "MATRIX INPUT 8",
+   "dir": "in",
+   "pins": {
+    "a": "P1-13"
+   }
+  },
+  {
+   "name": "MATRIX INPUT 9",
+   "dir": "in",
+   "pins": {
+    "a": "P1-14"
+   }
+  },
+  {
+   "name": "MATRIX INPUT 10",
+   "dir": "in",
+   "pins": {
+    "a": "P1-15"
+   }
+  },
+  {
+   "name": "MATRIX INPUT 11",
+   "dir": "in",
+   "pins": {
+    "a": "P1-16"
+   }
+  },
+  {
+   "name": "MATRIX INPUT 12",
+   "dir": "in",
+   "pins": {
+    "a": "P1-17"
+   }
+  },
+  {
+   "name": "CROSSPOINT 1 CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P1-E"
+   }
+  },
+  {
+   "name": "CROSSPOINT 2 CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P1-D"
+   }
+  },
+  {
+   "name": "CROSSPOINT 3 CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P1-C"
+   }
+  },
+  {
+   "name": "CROSSPOINT 4 CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P1-5"
+   }
+  },
+  {
+   "name": "CROSSPOINT 5 CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P1-4"
+   }
+  },
+  {
+   "name": "CROSSPOINT 6 CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P1-3"
+   }
+  },
+  {
+   "name": "CROSSPOINT 7 CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P1-X"
+   }
+  },
+  {
+   "name": "CROSSPOINT 8 CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P1-W"
+   }
+  },
+  {
+   "name": "CROSSPOINT 9 CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P1-V"
+   }
+  },
+  {
+   "name": "CROSSPOINT 10 CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P1-20"
+   }
+  },
+  {
+   "name": "CROSSPOINT 11 CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P1-19"
+   }
+  },
+  {
+   "name": "CROSSPOINT 12 CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "a": "P1-18"
+   }
+  },
+  {
+   "name": "BUS CASCADE",
+   "dir": "bus",
+   "pins": {
+    "a": "P1-21"
+   }
+  }
+ ],
+ "inserts": [],
+ "straps": [],
+ "conflicts": []
+}

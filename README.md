@@ -80,6 +80,55 @@ _Manuals and manual pages, price lists, RTO-144 connection sheets, brochures, ad
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/16KDXNhmVHwZAA9b2iSEZlTD6yfay3kh-/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=16KDXNhmVHwZAA9b2iSEZlTD6yfay3kh-" width="240" alt="19xx - M712B - DOC - 2021-3-16-23-19-37.jpg"></a><br><sub>19xx - M712B - DOC - 2021-3-16-23-19-37</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1gtTOoy8udi8ug_F4luQBvMkWs0sCJ9SV/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1gtTOoy8udi8ug_F4luQBvMkWs0sCJ9SV" width="240" alt="19xx - M712B - DOC - 2021-3-16-23-22-3.jpg"></a><br><sub>19xx - M712B - DOC - 2021-3-16-23-22-3</sub></td></tr>
 </table>
 
+## RTO-144 pinout
+
+Read from 1 pinout picture (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json).
+
+| Pin | Signal | Kind | Port | Confidence |
+|---|---|---|---|---|
+| 1 | +25 V | power |  | medium |
+| 2 | BUS OUTPUT | out | OUTPUT | medium |
+| 3 | CROSSPOINT 6 CONTROL | control_in | CROSSPOINT 6 CONTROL | medium |
+| 4 | CROSSPOINT 5 CONTROL | control_in | CROSSPOINT 5 CONTROL | medium |
+| 5 | CROSSPOINT 4 CONTROL | control_in | CROSSPOINT 4 CONTROL | medium |
+| 6 | MATRIX INPUT 1 | in | MATRIX INPUT 1 | medium |
+| 7 | MATRIX INPUT 2 | in | MATRIX INPUT 2 | medium |
+| 8 | MATRIX INPUT 3 | in | MATRIX INPUT 3 | medium |
+| 9 | MATRIX INPUT 4 | in | MATRIX INPUT 4 | medium |
+| 10 | MATRIX INPUT 5 | in | MATRIX INPUT 5 | medium |
+| 11 | MATRIX INPUT 6 | in | MATRIX INPUT 6 | medium |
+| 12 | MATRIX INPUT 7 | in | MATRIX INPUT 7 | medium |
+| 13 | MATRIX INPUT 8 | in | MATRIX INPUT 8 | medium |
+| 14 | MATRIX INPUT 9 | in | MATRIX INPUT 9 | medium |
+| 15 | MATRIX INPUT 10 | in | MATRIX INPUT 10 | medium |
+| 16 | MATRIX INPUT 11 | in | MATRIX INPUT 11 | medium |
+| 17 | MATRIX INPUT 12 | in | MATRIX INPUT 12 | medium |
+| 18 | CROSSPOINT 12 CONTROL | control_in | CROSSPOINT 12 CONTROL | medium |
+| 19 | CROSSPOINT 11 CONTROL | control_in | CROSSPOINT 11 CONTROL | medium |
+| 20 | CROSSPOINT 10 CONTROL | control_in | CROSSPOINT 10 CONTROL | medium |
+| 21 | BUS CASCADE INPUT | bus | BUS CASCADE | medium |
+| 22 | GROUND | ground |  | medium |
+| B | BUS OUTPUT | out | OUTPUT | medium |
+| C | CROSSPOINT 3 CONTROL | control_in | CROSSPOINT 3 CONTROL | medium |
+| D | CROSSPOINT 2 CONTROL | control_in | CROSSPOINT 2 CONTROL | medium |
+| E | CROSSPOINT 1 CONTROL | control_in | CROSSPOINT 1 CONTROL | medium |
+| F | MATRIX INPUT 1 | in | MATRIX INPUT 1 | medium |
+| H | MATRIX INPUT 2 | in | MATRIX INPUT 2 | medium |
+| J | MATRIX INPUT 3 | in | MATRIX INPUT 3 | medium |
+| K | MATRIX INPUT 4 | in | MATRIX INPUT 4 | medium |
+| L | MATRIX INPUT 5 | in | MATRIX INPUT 5 | medium |
+| M | MATRIX INPUT 6 | in | MATRIX INPUT 6 | medium |
+| N | MATRIX INPUT 7 | in | MATRIX INPUT 7 | medium |
+| P | MATRIX INPUT 8 | in | MATRIX INPUT 8 | medium |
+| R | MATRIX INPUT 9 | in | MATRIX INPUT 9 | medium |
+| S | MATRIX INPUT 10 | in | MATRIX INPUT 10 | medium |
+| T | MATRIX INPUT 11 | in | MATRIX INPUT 11 | medium |
+| U | MATRIX INPUT 12 | in | MATRIX INPUT 12 | medium |
+| V | CROSSPOINT 9 CONTROL | control_in | CROSSPOINT 9 CONTROL | medium |
+| W | CROSSPOINT 8 CONTROL | control_in | CROSSPOINT 8 CONTROL | medium |
+| X | CROSSPOINT 7 CONTROL | control_in | CROSSPOINT 7 CONTROL | medium |
+| Y | BUS CASCADE INPUT | bus | BUS CASCADE | medium |
+
 ## KiCad
 
 _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the module symbol (`.kicad_sym`) and its PCB projects. Traced schematics are the line work only: redraw with symbols over them._
