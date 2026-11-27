@@ -1,0 +1,219 @@
+{
+ "module": "M712B",
+ "title": "M712B INTERCOM MATRIX AMPLIFIER",
+ "source": {
+  "file": "MANUALS/1982 - M712B - 003.jpg",
+  "page": 1
+ },
+ "ocr_quality": 0.96,
+ "read": "OCR of the technical data sheet; usual OCR slips put right, the rest as read: check against the page",
+ "specifications": [
+  {
+   "name": "Gain",
+   "key": "gain",
+   "text": "Unity, +3 dB trim range. ±0.25 dB from 100 Hz to kHz",
+   "quantities": [
+    {
+     "value": 3,
+     "unit": "dB"
+    },
+    {
+     "value": 0.25,
+     "unit": "dB",
+     "tolerance": true
+    },
+    {
+     "value": 100,
+     "unit": "Hz"
+    }
+   ]
+  },
+  {
+   "name": "Noise",
+   "key": "noise",
+   "text": "Better than 70 dB below +8 dBm (20 Hz to 20 kHz)_ Less than 0.25% ThD from 100 Hz to kHz at +18 dBm output into 600 ohm Toad",
+   "quantities": [
+    {
+     "value": 70,
+     "unit": "dB"
+    },
+    {
+     "value": 8,
+     "unit": "dBm"
+    },
+    {
+     "value": 20,
+     "unit": "Hz"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    },
+    {
+     "value": 0.25,
+     "unit": "%"
+    },
+    {
+     "value": 100,
+     "unit": "Hz"
+    },
+    {
+     "value": 18,
+     "unit": "dBm"
+    },
+    {
+     "value": 600,
+     "unit": "ohm"
+    }
+   ]
+  },
+  {
+   "name": "Harmonic distortion",
+   "key": "harmonic_distortion",
+   "text": "",
+   "items": [
+    {
+     "name": "Input level",
+     "text": "+8 dBm nomina] +20 dBm maximum.",
+     "quantities": [
+      {
+       "value": 8,
+       "unit": "dBm"
+      },
+      {
+       "value": 20,
+       "unit": "dBm"
+      }
+     ],
+     "key": "input_level"
+    }
+   ]
+  },
+  {
+   "name": "Input impedance",
+   "key": "input_impedance",
+   "text": "Larger than 30k ohms balanced = center-tapped _ 600 ohms maximum, balanced",
+   "quantities": [
+    {
+     "value": 600,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Source impedance",
+   "key": "source_impedance",
+   "text": "Output Leve]: Output Impedance: +8 dBm nominal, +20 dBm maximum. Less than 50 ohms ba lanced_ center-tapped 600 ohms nomina], 100 ohms minimum (for +18 dBm output)",
+   "quantities": [
+    {
+     "value": 8,
+     "unit": "dBm"
+    },
+    {
+     "value": 20,
+     "unit": "dBm"
+    },
+    {
+     "value": 50,
+     "unit": "ohms"
+    },
+    {
+     "value": 600,
+     "unit": "ohms"
+    },
+    {
+     "value": 100,
+     "unit": "ohms"
+    },
+    {
+     "value": 18,
+     "unit": "dBm"
+    }
+   ]
+  },
+  {
+   "name": "Phasing",
+   "key": "phasing",
+   "text": "Input and output termina ]s designated by numbers are in phase"
+  },
+  {
+   "name": "Cross point attenuation",
+   "key": "cross_point_attenuation",
+   "text": "100 dB when switched off",
+   "quantities": [
+    {
+     "value": 100,
+     "unit": "dB"
+    }
+   ]
+  },
+  {
+   "name": "Cross point level variation",
+   "key": "cross_point_level_variation",
+   "text": "+0.5 dB",
+   "quantities": [
+    {
+     "value": 0.5,
+     "unit": "dB"
+    }
+   ]
+  },
+  {
+   "name": "Power requirements",
+   "key": "power_requirement",
+   "text": "+25 volts dc regulated, 40 mA",
+   "quantities": [
+    {
+     "value": 25,
+     "unit": "volts dc"
+    },
+    {
+     "value": 40,
+     "unit": "mA"
+    }
+   ]
+  },
+  {
+   "name": "Ambient temperature",
+   "key": "ambient_temperature",
+   "text": "to 60 degrees Celsius",
+   "quantities": [
+    {
+     "value": 60,
+     "unit": "degrees Celsius"
+    }
+   ]
+  },
+  {
+   "name": "Dimensions",
+   "key": "dimensions",
+   "text": "0 7\" wide 4.4\" high 11\" deep (18 mm 112 Mm 280 mm)",
+   "quantities": [
+    {
+     "value": 7,
+     "unit": "\""
+    },
+    {
+     "value": 4.4,
+     "unit": "\""
+    },
+    {
+     "value": 11,
+     "unit": "\""
+    },
+    {
+     "value": 18,
+     "unit": "mm"
+    },
+    {
+     "value": 112,
+     "unit": "Mm"
+    },
+    {
+     "value": 280,
+     "unit": "mm"
+    }
+   ]
+  }
+ ]
+}

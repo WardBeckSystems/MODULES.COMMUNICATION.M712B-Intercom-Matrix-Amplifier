@@ -13,6 +13,43 @@ Ward-Beck Systems M712B, 1982|15. Wiki page: [M712B on WBSps.ca](https://wardbec
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 1 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 24 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+**On the WBSps forum (2006|39 - 2014|47):** [1 topic](FORUM.md): what owners and technicians said about it.
+
+## Specifications
+
+From the technical data sheet: [1982 - M712B - 003.jpg](MANUALS/1982%20-%20M712B%20-%20003.jpg) page 1 (read by OCR; check against the page). As data: [`Specifications.json`](Specifications.json).
+
+| | |
+|---|---|
+| **Gain** | Unity, +3 dB trim range. ±0.25 dB from 100 Hz to kHz |
+| **Noise** | Better than 70 dB below +8 dBm (20 Hz to 20 kHz)_ Less than 0.25% ThD from 100 Hz to kHz at +18 dBm output into 600 ohm Toad |
+| **Harmonic distortion** |  |
+| &nbsp;&nbsp;Input level | +8 dBm nomina] +20 dBm maximum. |
+| **Input impedance** | Larger than 30k ohms balanced = center-tapped _ 600 ohms maximum, balanced |
+| **Source impedance** | Output Leve]: Output Impedance: +8 dBm nominal, +20 dBm maximum. Less than 50 ohms ba lanced_ center-tapped 600 ohms nomina], 100 ohms minimum (for +18 dBm output) |
+| **Phasing** | Input and output termina ]s designated by numbers are in phase |
+| **Cross point attenuation** | 100 dB when switched off |
+| **Cross point level variation** | +0.5 dB |
+| **Power requirements** | +25 volts dc regulated, 40 mA |
+| **Ambient temperature** | to 60 degrees Celsius |
+| **Dimensions** | 0 7&quot; wide 4.4&quot; high 11&quot; deep (18 mm 112 Mm 280 mm) |
+
+## Circuit description
+
+From [1982 - M712B - 004.jpg](MANUALS/1982%20-%20M712B%20-%20004.jpg) page 1 (read by OCR; check against the pages). As data: [`CircuitDescription.json`](CircuitDescription.json).
+
+<details><summary>Read it</summary>
+
+Additionally, by inserting the appropriate resistors PART-MUTE/ FULLY On and FULLY ON/ PART-MUTE crosspoints maybe implemented (refer to drawing B712-02-101) Norma ]y, partial muting of 12 or 18 dB is utilized Qutput_Ampli fier ' '. The integrated circuit 013 serves a $ mixing and output. amplifier. R134 is gain contro] with trim range of +3 dB Norma ]ly, the M712B operates at standard Tine level of dBm and at unity gain. When driving 600 ohm Toad, the maximum output capability is +20 dBm Alternatively the amplifier will deliver up to +18 dBm maximum into ioo ohm Toad permitting the operation of severa] 600 ohm headsets directly from the output of the M712B without the need for separate output amplifier. t Power_Supply Decoupling 2 The unit is designed to work from +25 volt regulated power supply _.. CR25 protects the amplifier from inadvertent polarity reverse] R140 C49 as well a $ Q1 with its associated components serve a$ filtering and decoupiing components. The emitter of Q1 supplies nomina] +11 volts to the crosspoint circuits_ 4.. ` 7 ' ' ' ` n `..s...
+
+&quot;.. ` n. 4`.. 3
+
+</details>
+
+<!-- /module data -->
+
 ## Mechanical
 
 _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- drawings), AutoCAD files, each with its `(EXTRACTED).svg` vectors; `<module> - front panel.svg` is the front panel as vectors._
