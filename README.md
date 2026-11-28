@@ -4,13 +4,11 @@ Ward-Beck Systems M712B, 1982|15. Wiki page: [M712B on WBSps.ca](https://wardbec
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 9 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 24 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 2 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 18 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 1 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 4 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 8 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 23 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 1 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 17 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 3 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 24 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -59,6 +57,15 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1cdNIPuFQbn_EDEDAWgDl1LxMNWR9ag7L/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1cdNIPuFQbn_EDEDAWgDl1LxMNWR9ag7L" width="240" alt="1994 - M712B - DOC - 94063-04-003 - MODUNES V-ADJ V-ADJ CAUTION DISCOVNECI PONKK REFCRI IRSERMNG.jpg"></a><br><sub>1994|27 · DOC - 94063-04-003 - MODUNES V-ADJ V-ADJ CAUTION DISCOVNECI PONKK REFCRI IRSERMNG · <a href="MECHANICAL/1994%20-%20M712B%20-%20DOC%20-%2094063-04-003%20-%20MODUNES%20V-ADJ%20V-ADJ%20CAUTION%20DISCOVNECI%20PONKK%20REFCRI%20IRSERMNG%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1PXuPYwVuCfj6cI6EF089y0azi5lEoG3x/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1PXuPYwVuCfj6cI6EF089y0azi5lEoG3x" width="240" alt="1996 - M712B - DOC - 960296-04-001 - RACTRG JOKER VOULLS V-ADJ V-ADJ CAUTION DISCCNNECT PORER.jpg"></a><br><sub>1996|29 · DOC - 960296-04-001 - RACTRG JOKER VOULLS V-ADJ V-ADJ CAUTION DISCCNNECT PORER · <a href="MECHANICAL/1996%20-%20M712B%20-%20DOC%20-%20960296-04-001%20-%20RACTRG%20JOKER%20VOULLS%20V-ADJ%20V-ADJ%20CAUTION%20DISCCNNECT%20PORER%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
+## 3-D model
+
+[`MECHANICAL/M712B.stl`](MECHANICAL/M712B.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M712B)
+
+- **Size:** 18 × 112 mm panel, 280 mm deep, 3.2 mm plate (TECHNICAL DATA: 0 7" wide 4.4" high 11" deep (18 mm 112 Mm 280 mm))
+- **From the drawing:** 0 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M712B - front panel.svg`)
+- no drawing of the front panel: the panel is blank
+- Made by `tools/module_models.py` (→ `MECHANICAL/M712B.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
+
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._
@@ -87,7 +94,6 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [1994 - M712B - DOC - 940249-01-001 - CENTENNIAL COLLEGE RADIO INTERCOM FUNCTIONAL.kicad_sch](KICAD/1994%20-%20M712B%20-%20DOC%20-%20940249-01-001%20-%20CENTENNIAL%20COLLEGE%20RADIO%20INTERCOM%20FUNCTIONAL.kicad_sch)
 - [1996 - M712B - DOC - 96017-01-001 - ISSUEI REMSION.kicad_sch](KICAD/1996%20-%20M712B%20-%20DOC%20-%2096017-01-001%20-%20ISSUEI%20REMSION.kicad_sch)
 - [M712B.kicad_sym](KICAD/M712B.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
