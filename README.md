@@ -1,6 +1,6 @@
 # M712B Intercom Matrix Amplifier · Communication
 
-Ward-Beck Systems M712B, 1982|15. Wiki page: [M712B on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M712B.html)
+Ward-Beck Systems M712B, 1982|15. Wiki page: [M712B on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/WBSps.ca/Github.WardBeckSystems/MODULES.COMMUNICATION.M712B-Intercom-Matrix-Amplifier/)
 
 | Folder | What is in it | Files |
 |---|---|---|
